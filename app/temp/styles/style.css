@@ -704,6 +704,7 @@ a {
 
 .row--equal-height-at-medium {
             display: flex
+
     }
     }
 
@@ -714,15 +715,15 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-medium--equal-height-at-large {
-                display: flex
-        }
+.row--equal-height-at-large {
+            display: flex
+    }
     }
 
-.row--equal-height-at-medium--equal-height-at-large > div {
-                float: none;
-                display: flex;
-            }
+.row--equal-height-at-large > div {
+            float: none;
+            display: flex;
+        }
 
 .section-title {
     font-size: 2.55rem;
